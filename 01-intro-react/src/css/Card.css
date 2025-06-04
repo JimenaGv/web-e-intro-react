@@ -1,0 +1,43 @@
+
+body {
+    background-color: rgb(238, 255, 255);
+}
+
+h1 {
+    justify-self: center;
+    color: rgb(89, 0, 0);
+}
+
+h2 {
+    color: rgb(188, 74, 78);
+}
+
+.container {
+    /* background-color: blueviolet; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.card {
+    background-color: rgb(238, 228, 214);
+    border-radius: 20px;
+    padding: 10px 30px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.card img {
+    width: 100%;
+    grid-column: 2;
+    border-radius: 50%;
+}
+
+.card h2,
+.card h3,
+.card p {
+    grid-column: 1;
+}
